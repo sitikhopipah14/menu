@@ -17,7 +17,7 @@ public class Activity_perpangkatan extends AppCompatActivity {
     VideoView mVideoView;
     MediaController mediaController;
     Button play1;
-    ImageButton beck;
+    ImageButton baek;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,8 @@ public class Activity_perpangkatan extends AppCompatActivity {
                 //Menjalankan Video
                 mVideoView.start();
 
-                beck = (ImageButton) findViewById(R.id.beck);
-                beck.setOnClickListener(new View.OnClickListener() {
+                baek = (ImageButton) findViewById(R.id.baek);
+                baek.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         startActivity(new Intent(getApplicationContext(),Activitykelas4.class));

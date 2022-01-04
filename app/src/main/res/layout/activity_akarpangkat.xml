@@ -172,7 +172,7 @@ cukup familiar."
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/tiga"
+                    android:src="@drawable/tigaaa"
                     android:layout_marginTop="10dp"/>
 
                 <androidx.cardview.widget.CardView

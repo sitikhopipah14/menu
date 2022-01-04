@@ -155,10 +155,10 @@
 
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="100dp"
-                    android:src="@drawable/card1"/>
+                    android:layout_width="255dp"
+                    android:layout_height="255dp"
+                    android:layout_marginHorizontal="85dp"
+                    android:src="@drawable/card1" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -306,9 +306,9 @@ ditentukan menggunakan pohon faktor."
 
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="100dp"
+                    android:layout_width="255dp"
+                    android:layout_height="190dp"
+                    android:layout_marginHorizontal="85dp"
                     android:layout_marginTop="5dp"
                     android:src="@drawable/faktor"/>
 
@@ -379,10 +379,212 @@ menuliskan kelipatan setiap bilangan, lalu melingkari kelipatan bilangan yang sa
 
 
                 <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:layout_marginHorizontal="85dp"
+                    android:src="@drawable/faktor2"/>
+
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="100dp"
-                    android:src="@drawable/faktor2"/>
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:text="Faktor Persekutuan"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:text="Faktor persekutuan adalah faktor yang sama (bersekutu) dari dua bilangan atau lebih."
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="267dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFD676"
+                    app:cardCornerRadius="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="24dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Contoh"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="40dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="30dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#000000"
+                        android:text="Tentukan faktor persekutuan dari 18 dan 24"
+                        android:textSize="14dp"
+                        android:textStyle="normal" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="100dp"
+                    android:layout_marginHorizontal="85dp"
+                    android:src="@drawable/faktor3"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:text="KPK dan FPB Dua Bilangan"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:text="Kelipatan persekutuan terkecil (KPK) adalah kelipatan persekutuan dari dua
+bilangan yang nilainya paling kecil di antara kelipatan persekutuan lainnya.
+Faktor persekutuan terbesar adalah faktor persekutuan dari dua bilangan yang
+nilainya paling besar di antara faktor persekutuan lainnya."
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="267dp"
+                    android:layout_height="91dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFD676"
+                    app:cardCornerRadius="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="24dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Contoh"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="24dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="30dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#000000"
+                        android:text="Tentukan KPK dan FPB dari 30 dan 42"
+                        android:textSize="14dp"
+                        android:textStyle="normal" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="267dp"
+                    android:layout_height="345dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="#FFD676"
+                    app:cardCornerRadius="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.089">
+
+                    <TextView
+                        android:layout_width="246dp"
+                        android:layout_height="345dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Penyelesaian :"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="24dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="30dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#000000"
+                        android:text="Tentukan KPK dan FPB dari 30 dan 42"
+                        android:textSize="14dp"
+                        android:textStyle="normal" />
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bulat1"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="60dp"/>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bulat2"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="60dp"/>
+
+                    <TextView
+                        android:id="@+id/akhir"
+                        android:layout_width="243dp"
+                        android:layout_height="120dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="200dp"
+                        android:justificationMode="inter_word"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:textStyle="normal" />
+
+                </androidx.cardview.widget.CardView>
 
 
 
